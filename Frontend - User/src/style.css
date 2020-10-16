@@ -1,0 +1,75 @@
+/*Profile Card 5*/
+.profile-card-5{
+    margin: auto;
+    margin-top:20px;
+    text-align: center;
+    font-family: arial;
+    font-style: bold;
+}
+
+.card-body{
+    padding-top: 10px;
+
+}
+
+.buku-page{
+    background-color: #C4C4C4;
+    margin: 5px;
+}
+
+.buku-cover{
+    width: 230px;
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.buku-info{
+    margin: 20px;
+}
+
+.buku-judul{
+    font-size: larger;
+}
+.buku-kategori{
+    font-size: medium;
+    color: #585858;
+}
+
+.buku-button{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.buku-review{
+    margin-left: 140px;
+    border-radius:10px;
+}
+.buku-read{
+    margin-left: 10px;
+    border-radius:10px;
+    background-color: #F65353;
+}
+
+
+
+.profile-card-5 .card-img-block {
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+}
+.profile-card-5 .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+}
+.profile-card-5 h1{
+    margin-top: 20px;
+    color: black;
+}
+
+.carousel-container{
+    color: white;
+    background-color: #afa07bc4;
+}
+

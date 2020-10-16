@@ -1,0 +1,45 @@
+/*Profile Card 5*/
+.profile-card-5{
+    margin: auto;
+    margin-top:20px;
+    text-align: center;
+    font-family: arial;
+    font-style: bold;
+}
+
+.card-body{
+    padding-top: 10px;
+}
+
+.review-judul{
+    font-size: xx-large;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.review-cover{
+    width: 100%;
+    float: left;
+}
+
+.review-info{
+    display: inline-block;
+    font-size: large;
+    line-height: 70px;
+}
+
+.review-input1, .review-input2, .review-input3, .review-input4, .review-input5{
+    line-height: 20px;
+}
+
+.review-rating{
+    float: right;
+}
+
+.review-submit{
+    font-size: large;
+    margin: 0 auto;
+    border-radius:10px;
+    background-color: #F65353;
+}
+

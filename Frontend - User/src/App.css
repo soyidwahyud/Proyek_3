@@ -1,0 +1,17 @@
+.navbar .nav-item .nav-link{ 
+  font-size: 1.3rem;
+  color:  #0C1452;  
+}
+
+.nav-link{
+  padding: 0;
+}
+
+.navbar{
+  padding-bottom : 0px;
+}
+
+.navbar .nav-item:hover .nav-link{ 
+  background-color: #0C1452;
+  color: #fff;  
+}

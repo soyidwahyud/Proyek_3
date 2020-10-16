@@ -1,0 +1,16 @@
+{
+  "keranjang": [
+    {
+      "id": 3,
+      "nama": "Huawei 40 Pro",
+      "harga": 14780000,
+      "stok": 1
+    },
+    {
+      "id": 8,
+      "nama": "Samsung S20",
+      "harga": 12999000,
+      "stok": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.book-list{
+    font-size: xx-large;
+    color: #0C1452;
+}
+
+.card{
+    background-color: #c4c4c4b4;
+}
+
+.halaman{
+    margin-top: 20px;
+}
+.card-segment{
+    width: 95%;
+    margin: 0 auto;
+}

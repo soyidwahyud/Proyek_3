@@ -1,0 +1,40 @@
+{
+  "gadgetList": [
+    {
+      "Gambar": "/produk/iphone_se.jpg",
+      "Judul": "PERBANDINGAN METODE FUZZY",
+      "Kategori": "Technology",
+      "Penerbit": "Kilomedia",
+      "Penulis": "Ferly Ardhy",
+      "Link": "/pdf/147-580-1-PB.pdf",
+      "id": 1
+    },
+    {
+      "Gambar": "/produk/iphone_se.jpg",
+      "Judul": "Penerapan Metode VIKOR (O2SN)",
+      "Kategori": "Technology",
+      "Penerbit": "Mizuzu",
+      "Penulis": "Muhammad W P Agatmadja",
+      "Link": "/pdf/609-1769-2-PB.pdf",
+      "id": 2
+    },    
+    {
+      "Gambar": "/produk/iphone_se.jpg",
+      "Judul": "Lexicon",
+      "Kategori": "Comic",
+      "Penerbit": "Kilomedia",
+      "Penulis": "Achatina",
+      "Link": "/pdf/609-1769-2-PB.pdf",
+      "id": 3
+    },    
+    {
+      "Gambar": "/produk/iphone_se.jpg",
+      "Judul": "How To Make Fried Chicken",
+      "Kategori": "Tutorial",
+      "Penerbit": "Kilomedia",
+      "Penulis": "Jonatan H",
+      "Link": "https://google.com",
+      "id": 4
+    }
+  ]
+}
