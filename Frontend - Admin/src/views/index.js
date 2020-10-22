@@ -28,6 +28,7 @@ import {
   KriteriaTables,
   NilaiTables,
   HitungTables,
+  Hitung2Tables,
   AdminTables
 } from './Base';
 
@@ -56,6 +57,7 @@ export {
   KriteriaTables,
   NilaiTables,
   HitungTables,
+  Hitung2Tables,
   AdminTables,
 
   Charts,

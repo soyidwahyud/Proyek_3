@@ -28,6 +28,7 @@ import BookTables from "./Tabel/BookTables/BookTables";
 import KriteriaTables from "./Tabel/KriteriaTables/KriteriaTables";
 import NilaiTables from "./Tabel/NilaiTables/NilaiTables";
 import HitungTables from "./Tabel/HitungTables/HitungTables";
+import Hitung2Tables from "./Tabel/Hitung2Tables/Hitung2Tables";
 import AdminTables from "./Tabel/AdminTables/AdminTables";
 import Tabs from './Tabs';
 
@@ -62,6 +63,7 @@ export {
   KriteriaTables,
   NilaiTables,
   HitungTables,
+  Hitung2Tables,
   AdminTables,
 
   Tabs,
