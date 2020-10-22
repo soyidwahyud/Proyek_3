@@ -33,6 +33,7 @@ const BookTables = React.lazy(() => import('./views/Base/Tabel/BookTables/BookTa
 const KriteriaTables = React.lazy(() => import('./views/Base/Tabel/KriteriaTables/KriteriaTables'));
 const NilaiTables = React.lazy(() => import('./views/Base/Tabel/NilaiTables/NilaiTables'));
 const HitungTables = React.lazy(() => import('./views/Base/Tabel/HitungTables/HitungTables'));
+const Hitung2Tables = React.lazy( () => import('./views/Base/Tabel/Hitung2Tables/Hitung2Tables'))
 const AdminTables = React.lazy(() => import('./views/Base/Tabel/AdminTables/AdminTables'));
 const Tabs = React.lazy(() => import('./views/Base/Tabs'));
 
@@ -82,7 +83,8 @@ const routes = [
   { path: '/base/buku_tabel', name: 'Book Tables', component: BookTables },
   { path: '/base/kriteria_tabel', name: 'Kriteria Tables', component: KriteriaTables },
   { path: '/base/nilai_tabel', name: 'Nilai Tables', component: NilaiTables },
-  { path: '/base/hitung_tabel', name: 'Hitung Tables', component: HitungTables },
+  { path: '/base/hitung_tabel', name: 'Hitung Tables SAW', component: HitungTables },
+  { path: '/base/hitung2_tabel', name: 'Hitung Tables WP', component: Hitung2Tables },
   { path: '/base/admin_tabel', name: 'Admin Tables', component: AdminTables },
   { path: '/base/tabs', name: 'Tabs', component: Tabs },
 

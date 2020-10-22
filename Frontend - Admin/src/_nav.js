@@ -73,6 +73,11 @@ export default {
           icon: 'icon-folder',
         },
         {
+          name: 'Data Perhitungan WP',
+          url: '/base/hitung2_tabel',
+          icon: 'icon-folder',
+        },
+        {
           name: 'Data Admin',
           url: '/base/admin_tabel',
           icon: 'icon-folder',
