@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ce3797a-de5c-491d-af1d-b72f10211f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/Hitung2Tables/Hitung2Tables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend - Admin/src/Function/JabatanFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend - Admin/src/Function/JenisFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend - Admin/src/Function/KriteriaFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend - Admin/src/Function/PenerbitFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend - Admin/src/Function/PenulisFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend - Admin/src/Function/UserFunction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/_nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/_nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objectClass/Kriteria/Kriteria.py" beforeDir="false" afterPath="$PROJECT_DIR$/objectClass/Kriteria/Kriteria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/Function/AdminFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/Function/AdminFunction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Forms/JabatanForms/JabatanAddForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Forms/JabatanForms/JabatanAddForms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/AdminTables/AdminTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/AdminTables/AdminTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/JabatanTables/JabatanTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/JabatanTables/JabatanTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/JenisTables/JenisTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/JenisTables/JenisTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/PenerbitTables/PenerbitTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/PenerbitTables/PenerbitTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/PenulisTables/PenulisTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/PenulisTables/PenulisTables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/UserTables/UserTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/Tabel/UserTables/UserTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/Base/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend - Admin/src/views/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend - Admin/src/views/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test-login" beforeDir="false" afterPath="$PROJECT_DIR$/../test-login" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,7 +186,9 @@
       <workItem from="1602207258359" duration="2021000" />
       <workItem from="1602507068718" duration="928000" />
       <workItem from="1602810207280" duration="844000" />
-      <workItem from="1603372746321" duration="3717000" />
+      <workItem from="1603372746321" duration="4496000" />
+      <workItem from="1603416362721" duration="1232000" />
+      <workItem from="1603518696582" duration="7266000" />
     </task>
     <servers />
   </component>
@@ -190,7 +200,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -199,7 +211,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Backend$Flask__Object_Class_Level_py_.coverage" NAME="Flask (Object Class/Level.py) Coverage Results" MODIFIED="1600651875575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Backend$Backend.coverage" NAME="Backend Coverage Results" MODIFIED="1600656488184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Backend$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1603373459389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Backend$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1603543385807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Backend$Flask__Object_Class_Admin_py_.coverage" NAME="Flask (Object Class/Admin.py) Coverage Results" MODIFIED="1600650381562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

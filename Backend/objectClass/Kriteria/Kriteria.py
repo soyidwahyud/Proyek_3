@@ -12,12 +12,13 @@ kriteria = Blueprint('kriteria',__name__)
 @kriteria.route('/kriteria', methods=['GET'])
 def get_all_kriteria():
     cur = db.connection.cursor()
-    cur.execute("SELECT id_nilai_buku, nama_buku, kode, nilai_buku "
-                "FROM tbl_nilai_buku as nb "
-                "INNER JOIN tbl_buku as b "
-                "ON nb.id_buku = b.id_buku "
-                "INNER JOIN tbl_kriteria as k  "
-                "ON nb.id_kriteria = k.id_kriteria ")
+    # cur.execute("SELECT id_nilai_buku, nama_buku, kode, nilai_buku "
+    #             "FROM tbl_nilai_buku as nb "
+    #             "INNER JOIN tbl_buku as b "
+    #             "ON nb.id_buku = b.id_buku "
+    #             "INNER JOIN tbl_kriteria as k  "
+    #             "ON nb.id_kriteria = k.id_kriteria ")
+    cur.execute("SELECT * FROM tbl_kriteria ")
     
     rv = cur.fetchall()
     return jsonify(rv)
