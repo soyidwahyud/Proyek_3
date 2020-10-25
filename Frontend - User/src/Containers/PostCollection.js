@@ -135,7 +135,8 @@ class PostCollection extends Component{
                                         Kategori={buku.Kategori}
                                         Penerbit={buku.Penerbit}
                                         Penulis={buku.Penulis}
-                                        Link={buku.Link}/>
+                                        Link={buku.Link}
+                                        LinkReview={"review?no="+buku.id}/>
                         })
                     }
                     </div>
