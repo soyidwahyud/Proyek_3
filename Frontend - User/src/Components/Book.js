@@ -14,7 +14,7 @@ const Book = (props) => {
               <div className="buku-penulis">{props.Penulis}</div>
             </div>
             <div className="buku-button">
-            <a href="review" className="buku-review btn btn-primary btn-warning">Review</a>
+            <a href={props.LinkReview} className="buku-review btn btn-primary btn-warning">Review</a>
             <a href={props.Link} target="_blank" className="buku-read btn">Read</a>
             </div>
           </div>
