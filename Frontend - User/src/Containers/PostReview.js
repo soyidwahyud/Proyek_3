@@ -146,7 +146,7 @@ class PostCollection extends Component{
                     <div className="card-segment">
                     {
                         this.state.ListGadget.map(buku => {
-                            if(buku.id === 1){
+                            if(buku.id === Number(window.location.search.replace("?no=",""))){
                             return <Review key="{buku.id}"
                                         id={buku.id}
                                         Gambar = {buku.Gambar}
