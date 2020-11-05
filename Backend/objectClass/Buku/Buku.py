@@ -24,6 +24,25 @@ def get_all_buku():
     rv = cur.fetchall()
     return jsonify(rv)
 
+# READ Specific book
+@buku.route('/buku/<id_buku>', methods=['GET'])
+def get_spesific_buku(id_buku):
+    cur = db.connection.cursor()
+    cur.execute("SELECT id_buku, kode_buku, nama_buku, jenis_buku, nama_penerbit, penulis, gambar, userfile  "
+                "FROM tbl_buku as b "
+                "INNER JOIN tbl_jenis as j "
+                "on b.id_jenis = j.id_jenis "
+                "INNER JOIN tbl_penerbit as p1 "
+                "on b.id_penerbit = p1.id_penerbit " 
+                "INNER JOIN tbl_penulis as p2 "
+                "on b.id_penulis = p2.id_penulis "
+                "WHERE id_buku="+id_buku)
+
+    db.connection.commit()
+
+    rv = cur.fetchall()
+    return jsonify(rv)
+
 # READ id jenis buku
 @buku.route('/buku/jenis', methods=['GET'])
 def get_id_jenis():
